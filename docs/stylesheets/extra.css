@@ -1,0 +1,39 @@
+:root {
+    --md-admonition-icon--infobox: display:
+}
+.md-typeset .admonition.infobox, .md-typeset details.infobox {
+    border-color: rgb(43, 155, 70);
+}
+.md-typeset .infobox > .admonition-title, .md-typeset .infobox > summary {
+    background-color: rgba(43, 155, 70, 0.1);
+    border: inherit;
+    margin: 5%;
+}
+.md-typeset .infobox {
+    width: 16rem;
+}
+.md-typeset .infobox img {
+    filter: drop-shadow(0.4rem 0.4rem 0.2rem rgba(0, 0, 0, 0.5));
+}
+.md-typeset .infobox > .admonition-title {
+    padding-left: 0%;
+    text-align: center;
+    font-size: large;
+}
+.md-typeset .infobox > .admonition-title::before, .md-typeset .infobox > summary::before {
+    background-color: rgb(43, 155, 70);
+    display: none;
+}
+.md-typeset .infobox > div {
+    border-bottom: 1px solid rgb(43, 155, 70);
+    margin-bottom: 1.5em;
+}
+.md-typeset .infobox > div > strong {
+        width: 40%;
+        display: inline-block;
+        font-weight: bold;
+}
+.md-typeset .infobox .tabbed-labels > label {
+    /* Centers the content tab buttons */
+    margin: 0 auto
+}
