@@ -3,7 +3,7 @@
     <hr>
     <div>
         **Health**
-    16 (:minecraft_heart::minecraft_heart::minecraft_heart::minecraft_heart::minecraft_heart::minecraft_heart::minecraft_heart::minecraft_heart:)
+    16 (:minecraft_heart: x 8)
     </div>
     <div>
         **Classification**
@@ -27,7 +27,7 @@
 Fireflies are a passive mob found in swamp biomes. They can be collected in jars and bottles. They float around at night, and begin to despawn once daytime begins.
 
 ## Spawning
-Firefly swarms spawn in swamp biomes at night, between y level 60 and 70 (non-inclusive). They spawn most commonly during a [new moon](https://minecraft.fandom.com/wiki/Moon#Phases) and don't spawn at all during a full moon. This is done by comparing a random number between 0 and 1 to brightness of the moon. These values are listed below:
+Firefly swarms spawn in swamp biomes at night, between y level 60 and 70 (non-inclusive). They spawn most commonly during a [new moon](https://minecraft.wiki/w/Moon#Phases) and don't spawn at all during a full moon. This is done by comparing a random number between 0 and 1 to brightness of the moon. These values are listed below:
 
 | Moon Phase      | Brightness | Chance |
 | --------------- | ---------- | ------ |
@@ -46,5 +46,5 @@ Firefly swarms will initially pick a position to begin floating towards, and wil
 When daytime begins, they will begin to have a 1/10 chance each tick to despawn.
 
 ### Collecting
-If you click a swarm of fireflies wiht a bottle, the bottle will become a firely bottle. A swarm is worth three bottles. If you click a swarm of fireflies with a glass jar or firefly jar, it'll instantly be filled with three bottles worth of fireflies, and the swarm will disappear.
+If you click a swarm of fireflies with a bottle, the bottle will become a firely bottle. A swarm is worth three bottles. If you click a swarm of fireflies with a glass jar or firefly jar, it'll instantly be filled with three bottles worth of fireflies, and the swarm will disappear.
 

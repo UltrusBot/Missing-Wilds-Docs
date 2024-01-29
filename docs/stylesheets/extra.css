@@ -2,10 +2,10 @@
     --md-admonition-icon--infobox: display:
 }
 .md-typeset .admonition.infobox, .md-typeset details.infobox {
-    border-color: rgb(43, 155, 70);
+    /* border-color: rgb(43, 155, 70); */
 }
 .md-typeset .infobox > .admonition-title, .md-typeset .infobox > summary {
-    background-color: rgba(43, 155, 70, 0.1);
+    /* background-color: rgba(43, 155, 70, 0.1); */
     border: inherit;
     margin: 5%;
 }
@@ -21,15 +21,15 @@
     font-size: large;
 }
 .md-typeset .infobox > .admonition-title::before, .md-typeset .infobox > summary::before {
-    background-color: rgb(43, 155, 70);
+    /* background-color: rgb(43, 155, 70); */
     display: none;
 }
 .md-typeset .infobox > div {
-    border-bottom: 1px solid rgb(43, 155, 70);
+    /* border-bottom: 1px solid rgb(43, 155, 70); */
     margin-bottom: 1.5em;
 }
 .md-typeset .infobox > div > strong {
-        width: 40%;
+        width: 50%;
         display: inline-block;
         font-weight: bold;
 }

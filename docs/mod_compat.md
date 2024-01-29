@@ -23,3 +23,5 @@ Missing Wilds adds compatibility for various mods. The following is a table of m
 | Templates 2             | Adds fallen log template block                                 |
 | Hex Casting             | Fallen Logs                                                    |
 | Softer Pastels          | Adds jars for the pastel glass blocks.                         |
+| Aether                  | Fallen Logs                                                    |
+| Loading Screen Tips     | Adds tips about missing wilds content                          |

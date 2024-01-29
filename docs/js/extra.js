@@ -20,3 +20,5 @@ if (colorText.length > 0) {
         colorText[i].innerHTML += '<div style="background-color: ' + colorValue + '; width: 1em; height: 1em; display: inline-block; margin-left: 0.25em;"></div>';
     }
 }
+
+document.getElementsByClassName("md-copyright")[0].innerHTML += " | And styled with <a href=\"https://github.com/catppuccin/catppuccin\" target=\"_blank\">Catppuccin</a>"; 

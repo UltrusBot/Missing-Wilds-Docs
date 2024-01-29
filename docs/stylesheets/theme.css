@@ -1,0 +1,78 @@
+@import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
+
+/* :root {
+    --md-primary-fg-color: var(--ctp-macchiato-base);
+    --md-accent-fg-color: var(--ctp-macchiato-green)
+  } */
+
+  [data-md-color-scheme="mocha"] {
+    --md-primary-fg-color: var(--ctp-mocha-crust);
+    --md-accent-fg-color: var(--ctp-mocha-blue);
+
+    --md-default-bg-color: var(--ctp-mocha-base);
+
+    --md-primary-bg-color: var(---ctp-mocha-text); /* Top Bar Text */
+    --md-default-fg-color--light: var(--ctp-mocha-text); /* Header Text */
+    --md-typeset-color: var(--ctp-mocha-text); /* Body Text */
+    --md-admonition-fg-color: var(--ctp-mocha-text); /* Infobox Text */
+
+    --custom-sidenav-link-color: var(--ctp-mocha-green);
+
+    --md-admonition-bg-color: var(--ctp-mocha-surface0);
+
+    --custom-infobox-title-color: var(--ctp-mocha-surface1);
+    --custom-infobox-alt-color: var(--ctp-mocha-surface1);
+    --custom-infobox-color: var(--ctp-mocha-surface2);
+    --md-typeset-table-color: var(--ctp-mocha-surface1);
+  }
+
+  [data-md-color-scheme="latte"] {
+    --md-primary-fg-color: var(--ctp-latte-crust);
+    --md-accent-fg-color: var(--ctp-latte-blue);
+
+    --md-default-bg-color: var(--ctp-latte-base);
+
+    --md-primary-bg-color: var(---ctp-latte-text); /* Top Bar Text */
+    --md-default-fg-color--light: var(--ctp-latte-text); /* Header Text */
+    --md-typeset-color: var(--ctp-latte-text); /* Body Text */
+    --md-admonition-fg-color: var(--ctp-latte-text); /* Infobox Text */
+
+    --custom-sidenav-link-color: var(--ctp-latte-green);
+
+    --md-admonition-bg-color: var(--ctp-latte-surface0);
+
+    --custom-infobox-title-color: var(--ctp-latte-surface1);
+    --custom-infobox-alt-color: var(--ctp-latte-surface1);
+    --custom-infobox-color: var(--ctp-latte-surface2);
+    --md-typeset-table-color: var(--ctp-latte-surface1);
+    
+  }
+
+  .md-nav__item .md-nav__link--active {
+    color: var(--custom-sidenav-link-color);
+  }
+
+  .md-typeset .admonition {
+    border: none;
+  }
+  /* Name bar in infobox */
+  .md-typeset .admonition-title, .md-typeset summary {
+    background-color: var(--custom-infobox-title-color);
+  }
+
+  .md-typeset .admonition > div {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  /* Makes every other one lighter */
+  .md-typeset .admonition > div:nth-child(even) {
+    background-color: var(--custom-infobox-alt-color);
+  }
+  .md-typeset .admonition > div:nth-child(odd) {
+    background-color: var(--custom-infobox-color);
+  }
+  .md-typeset .admonition > div {
+    margin-bottom: 0;
+    padding-left: 5%;
+  }

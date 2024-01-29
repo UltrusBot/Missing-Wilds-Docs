@@ -43,7 +43,7 @@
     No
     </div>
 
-Forget me nots are type of [flower](https://minecraft.fandom.com/wiki/Flower) found in birch forest biomes. They can have up to three flowers in a single block, and can have multiple different colors in a single block. They can also be crafted into dyes.
+Forget me nots are type of [flower](https://minecraft.wiki/w/Flower) found in birch forest biomes. They can have up to three flowers in a single block, and can have multiple different colors in a single block. They can also be crafted into dyes.
 
 ## Obtaining
 

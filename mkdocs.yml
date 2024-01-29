@@ -4,15 +4,17 @@ nav:
   - Home: index.md
   - Features:
     - Forget Me Nots: forget_me_nots.md
-    - Fireflies: fireflies.md 
+    - Fireflies: fireflies.md
+    - Jar: jar.md
     - Polypore Mushroom: polypore_mushroom.md
     - Roasted Polypore Mushroom: roasted_polypore_mushroom.md
     - Firefly Jar: firefly_jar.md
+    - Food Jar: food_jar.md
     - Tags: tags.md
     - Mod Compatibility: mod_compat.md
 theme:
   name: material
-  logo: images/icon.png
+  logo: images/mw_logo.png
   custom_dir: overrides
   icon:
     admonition:
@@ -33,16 +35,17 @@ theme:
     - navigation.sections
     - toc.follow
     - toc.integrate
+      
   palette:
     - media: "(prefers-color-scheme: dark)" 
-      scheme: slate
+      scheme: mocha
       primary: teal
       accent: orange
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)" 
-      scheme: default
+      scheme: latte
       primary: teal
       accent: orange
       toggle:
@@ -61,6 +64,7 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/theme.css
 
 extra_javascript:
   - js/extra.js

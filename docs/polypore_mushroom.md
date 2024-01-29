@@ -49,7 +49,7 @@ Polypore mushrooms are a variety of mushroom that spawns on birch trees in birch
 ### Natural generation
 
 ### Growth
-When [randomly ticking](https://minecraft.fandom.com/wiki/Tick#Random_tick) single polypore mushrooms have a 1/50 chance to double, becoming a double polypore mushroom.
+When [randomly ticking](https://minecraft.wiki/w/Tick#Random_tick) single polypore mushrooms have a 1/50 chance to double, becoming a double polypore mushroom.
 
 ## Usage
 
