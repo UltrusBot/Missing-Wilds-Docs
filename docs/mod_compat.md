@@ -25,3 +25,4 @@ Missing Wilds adds compatibility for various mods. The following is a table of m
 | Softer Pastels          | Adds jars for the pastel glass blocks.                         |
 | Aether                  | Fallen Logs                                                    |
 | Loading Screen Tips     | Adds tips about missing wilds content                          |
+| Botania                 | Fallen Logs & Jars                                             |
